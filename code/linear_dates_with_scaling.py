@@ -58,4 +58,4 @@ p = lr.predict( x_test_ )
 predictions = test[[ 'Id' ]].copy()
 predictions[ 'mortality_rate' ] = p
 
-#predictions.to_csv( output_file, index = False )
+predictions.to_csv( output_file, index = False )
